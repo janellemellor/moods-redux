@@ -3,11 +3,6 @@
 For this assignment, you will be refactoring an app that uses basic
 state management into one that uses Redux for state management.
 
-## Before you begin
-Refer to *Getting Started*  in the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for complete setup, configuration, deployment, and submission instructions.
-
-## Getting Started
-
 ### Connect to a store
 
 For this assignment, you're going to take an existing application which
@@ -38,6 +33,4 @@ view.
 * Use combine reducer to extract all your timer state from
   your button click state
 
-### Assignemnt Submission Instructions
 
-Refer to the the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for the complete lab submission process and expectations
