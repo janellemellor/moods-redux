@@ -18,13 +18,14 @@ export const getFace = state => {
   return '😀';
 };
 
-export default class Moods extends Component {
-  state = {
-    coffees: 0,
-    snacks: 0,
-    naps: 0,
-    studies: 0
-  }
+// export default class Moods extends Component {
+//MOVED TO REDUCER
+  // state = {
+  //   coffees: 0,
+  //   snacks: 0,
+  //   naps: 0,
+  //   studies: 0
+  // }
 
   handleSelection = action => {
     switch(action.type) {
