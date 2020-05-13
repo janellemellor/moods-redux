@@ -1,5 +1,4 @@
 //actions needed:
-//TAKE NAP
 //STUDY
 
 export const DRINK_COFFEE = 'DRINK_COFFEE';
@@ -10,5 +9,10 @@ export const drinkCoffee = () => ({
 export const EAT_SNACK = 'EAT_SNACK';
 export const eatSnack = () => ({
   type: EAT_SNACK
+});
+
+export const TAKE_NAP = 'TAKE_NAP';
+export const takeNap = () => ({
+  type: TAKE_NAP
 });
 
