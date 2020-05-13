@@ -1,4 +1,4 @@
-import { DRINK_COFFEE, EAT_SNACK, TAKE_NAP } from '../actions/moodsActions';
+import { DRINK_COFFEE, EAT_SNACK, TAKE_NAP, STUDY } from '../actions/moodsActions';
 
 export default function reducer(
   state = {
@@ -16,7 +16,10 @@ export default function reducer(
         snacks: state.snacks + 1 };
     case TAKE_NAP:
       return { ...state,
-        naps: state.naps + 1 };        
+        naps: state.naps + 1 };
+    case STUDY:
+      return { ...state, 
+        studies: state.studies + 1 };        
     default:
       return state;
   }

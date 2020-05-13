@@ -68,8 +68,8 @@ describe('moods reducer', () => {
     expect(newState).toEqual({
       coffees: 1,
       snacks: 2,
-      naps: 4,
-      studies: 1 
+      naps: 3,
+      studies: 5  
     });
   });
 });
