@@ -18,7 +18,7 @@ export const getFace = state => {
   return '😀';
 };
 
-// export default class Moods extends Component {
+export default class Moods extends Component {
 //MOVED TO REDUCER
   // state = {
   //   coffees: 0,
@@ -61,5 +61,4 @@ export const getFace = state => {
         <Face emoji={face} />
       </>
     );
-  }
-}
+  }}
