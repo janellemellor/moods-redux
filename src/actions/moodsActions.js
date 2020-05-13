@@ -1,6 +1,3 @@
-//actions needed:
-//STUDY
-
 export const DRINK_COFFEE = 'DRINK_COFFEE';
 export const drinkCoffee = () => ({
   type: DRINK_COFFEE
@@ -15,4 +12,9 @@ export const TAKE_NAP = 'TAKE_NAP';
 export const takeNap = () => ({
   type: TAKE_NAP
 });
+
+export const STUDY = 'STUDY';
+export const study = () => ({
+  type: STUDY
+}); 
 
