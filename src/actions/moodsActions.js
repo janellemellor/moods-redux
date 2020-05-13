@@ -1,5 +1,4 @@
 //actions needed:
-//EAT_SNACK
 //TAKE NAP
 //STUDY
 
